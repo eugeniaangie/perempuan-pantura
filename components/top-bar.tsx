@@ -23,7 +23,7 @@ export function TopBar() {
           <button
             type="button"
             onClick={() => setUpright((v) => !v)}
-            className="rounded px-1.5 py-0.5 underline hover:text-blue-deep focus:outline-none focus:ring-1 focus:ring-blue-deep"
+            className="cursor-pointer rounded px-1.5 py-0.5 underline hover:text-blue-deep focus:outline-none focus:ring-1 focus:ring-blue-deep"
             title="Huruf Tegak"
           >
             {upright ? "Gaya Asli" : "Huruf Tegak"}
@@ -32,7 +32,7 @@ export function TopBar() {
           <button
             type="button"
             onClick={() => setLargeText((v) => !v)}
-            className="rounded px-1.5 py-0.5 underline hover:text-blue-deep focus:outline-none focus:ring-1 focus:ring-blue-deep"
+            className="cursor-pointer rounded px-1.5 py-0.5 underline hover:text-blue-deep focus:outline-none focus:ring-1 focus:ring-blue-deep"
             title="Teks Besar"
           >
             {largeText ? "Normal" : "Teks Besar"}
@@ -45,7 +45,7 @@ export function TopBar() {
               aria-label="Bahasa Indonesia"
               aria-current={locale === "id" ? "true" : undefined}
               onClick={() => setLocale("id")}
-              className={`rounded px-1.5 py-0.5 transition-colors focus:outline-none focus:ring-1 focus:ring-blue-deep ${
+              className={`cursor-pointer rounded px-1.5 py-0.5 transition-colors focus:outline-none focus:ring-1 focus:ring-blue-deep ${
                 locale === "id"
                   ? "font-bold text-blue underline"
                   : "text-blue-60 hover:text-blue-deep hover:underline"
@@ -60,7 +60,7 @@ export function TopBar() {
               aria-label="English"
               aria-current={locale === "en" ? "true" : undefined}
               onClick={() => setLocale("en")}
-              className={`rounded px-1.5 py-0.5 transition-colors focus:outline-none focus:ring-1 focus:ring-blue-deep ${
+              className={`cursor-pointer rounded px-1.5 py-0.5 transition-colors focus:outline-none focus:ring-1 focus:ring-blue-deep ${
                 locale === "en"
                   ? "font-bold text-blue underline"
                   : "text-blue-60 hover:text-blue-deep hover:underline"
