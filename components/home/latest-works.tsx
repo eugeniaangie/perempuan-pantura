@@ -14,7 +14,7 @@ export function LatestWorks() {
           </p>
         </div>
         <Link
-          href="/sastra"
+          href="/karya"
           className="shrink-0 text-xs font-semibold text-blue underline hover:text-blue-deep sm:text-sm"
         >
           Lihat Semua →

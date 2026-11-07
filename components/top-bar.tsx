@@ -16,7 +16,7 @@ export function TopBar() {
   }, [largeText]);
 
   return (
-    <div className="border-b border-blue-24 bg-blue-06 px-3 py-1.5 text-[11px] sm:px-4 sm:text-xs">
+    <div className="border-b border-blue-24 bg-blue-06 px-3 py-1.5 text-[11px] text-blue sm:px-4 sm:text-xs">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-2">
         <span className="truncate text-blue-60">Pesisir Pantura · Karawang</span>
         <div className="flex shrink-0 items-center gap-2 sm:gap-3">

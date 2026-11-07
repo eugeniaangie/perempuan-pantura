@@ -18,7 +18,7 @@ export function MetooBanner() {
             </div>
             <h2 className="text-2xl font-semibold text-blue sm:text-3xl">
               <Link
-                href="/metoo/kami-menolak-tunduk-pada-ketakutan"
+                href={featuredStory.href}
                 className="hover:text-blue-deep"
               >
                 {featuredStory.title}
@@ -29,16 +29,16 @@ export function MetooBanner() {
             </p>
             <div className="flex flex-col gap-3 pt-2 sm:flex-row sm:items-center sm:gap-4">
               <Link
-                href="/metoo/kami-menolak-tunduk-pada-ketakutan"
+                href={featuredStory.href}
                 className="inline-flex min-h-11 w-full cursor-pointer items-center justify-center rounded-full border border-transparent bg-blue px-5 py-2.5 text-center text-sm font-semibold text-white shadow-none transition-all duration-150 hover:bg-blue-deep active:scale-[0.98] active:bg-blue-deep focus:ring-2 focus:ring-blue-deep focus:ring-offset-2 focus:outline-none sm:w-auto"
               >
                 Baca Kesaksian
               </Link>
               <Link
-                href="/ruang-aman"
+                href="/layanan"
                 className="py-1 text-center text-xs font-semibold text-blue-ink hover:underline sm:text-left sm:text-sm"
               >
-                Tentang Ruang Aman →
+                Tentang Layanan →
               </Link>
             </div>
           </div>
